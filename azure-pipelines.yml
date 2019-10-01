@@ -43,6 +43,7 @@ steps:
     projects: '**/*.csproj'
 
 - task: DotNetCoreCLI@2
+<<<<<<< HEAD
   displayName: 'Run unit tests - $(buildConfiguration)'
   inputs:
     command: 'test'
@@ -51,6 +52,8 @@ steps:
     projects: '**/*.Tests.csproj'
 
 - task: DotNetCoreCLI@2
+=======
+>>>>>>> 9a4b57df3fbd2644718358e04b0116d4611b7791
   displayName: 'Install ReportGenerator'
   inputs:
     command: custom
